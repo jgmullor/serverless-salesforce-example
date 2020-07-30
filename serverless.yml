@@ -1,0 +1,14 @@
+provider:
+    name: aws
+    runtime: nodejs12.x
+    region: eu-west-1
+
+functions:
+    hi:
+        name: getContact
+        handler: src/contact.get
+        events:
+            -
+                http:
+                    path: '/contact/{id}'
+                    method: get

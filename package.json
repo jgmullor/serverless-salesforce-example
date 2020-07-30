@@ -1,0 +1,29 @@
+{
+  "name": "serverless-salesforce-example",
+  "version": "1.0.0",
+  "description": "Example using AWS Lambda (with serverless framework) and jsforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgmullor/serverless-salesforce-example.git"
+  },
+  "keywords": [
+    "salesforce",
+    "lambda",
+    "aws",
+    "serverless",
+    "jsforce"
+  ],
+  "author": "José Gilberto Mullor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgmullor/serverless-salesforce-example/issues"
+  },
+  "homepage": "https://github.com/jgmullor/serverless-salesforce-example#readme",
+  "dependencies": {
+    "jsforce": "^1.9.3"
+  }
+}
